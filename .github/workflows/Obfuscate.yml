@@ -32,7 +32,7 @@ jobs:
         run: |
           wget https://github.com/bia-pain-bache/BPB-Worker-Panel/releases/download/v3.5.6/worker.zip
           unzip -o worker.zip
-          mv _worker.js
+          mv worker.js
 
       - name: Obfuscate BPB worker js
         run: |
